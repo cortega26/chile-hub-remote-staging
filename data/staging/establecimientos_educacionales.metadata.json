@@ -1,0 +1,29 @@
+{
+  "dataset": "establecimientos_educacionales",
+  "source_name": "Ministerio de Educación - Directorio Oficial de Establecimientos",
+  "source_url": "https://datosabiertos.mineduc.cl/wp-content/uploads/2025/11/Directorio-Oficial-EE-2025.rar",
+  "source_mode": "live",
+  "source_detail": "mineduc_datos_abiertos_rar",
+  "refreshed_at_utc": "2026-10-26T21:26:01.484379+00:00",
+  "record_count": 12898,
+  "fields": [
+    "rbd",
+    "dv_rbd",
+    "nombre_establecimiento",
+    "codigo_region",
+    "codigo_comuna",
+    "dependencia_administrativa",
+    "latitud",
+    "longitud",
+    "estado_funcionamiento"
+  ],
+  "notes": [],
+  "reuse_policy": {
+    "status": "open-attribution",
+    "license": "CC-BY-3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/cl/",
+    "attribution_required": true,
+    "redistribution_ok": true,
+    "summary": "Directorio oficial MINEDUC publicado por el Centro de Estudios del Ministerio de Educación de Chile bajo licencia CC BY."
+  }
+}

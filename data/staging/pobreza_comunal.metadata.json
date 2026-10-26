@@ -1,0 +1,42 @@
+{
+  "dataset": "pobreza_comunal",
+  "source_name": "Observatorio Social — Ministerio de Desarrollo Social y Familia",
+  "source_url": "https://observatorio.ministeriodesarrollosocial.gob.cl/pobreza-comunal-2022",
+  "source_mode": "live",
+  "source_detail": "Estimaciones de Pobreza Comunal vía SAE desde encuesta CASEN",
+  "refreshed_at_utc": "2026-10-31T08:00:05.577622+00:00",
+  "retrieved_at": "2026-10-31T08:00:05.577622+00:00",
+  "record_count": 690,
+  "fields": [
+    "codigo_region",
+    "codigo_comuna",
+    "nombre_comuna",
+    "anio",
+    "dimension",
+    "tasa",
+    "limite_inferior",
+    "limite_superior",
+    "metodologia",
+    "fuente",
+    "url_fuente",
+    "fecha_fuente"
+  ],
+  "notes": [
+    "ingresos: 345 comunas con estimación desde URL oficial",
+    "multidimensional: 345 comunas con estimación desde URL oficial"
+  ],
+  "reuse_policy": {
+    "status": "open-attribution",
+    "license": "Datos abiertos MDS",
+    "license_url": "https://observatorio.ministeriodesarrollosocial.gob.cl/",
+    "attribution_required": true,
+    "redistribution_ok": true,
+    "summary": "Estimaciones de pobreza comunal derivadas de CASEN por el Observatorio Social del MDS. Datos abiertos con atribución requerida."
+  },
+  "snapshot_hash": "0f1c69f1746e872e8469b05b532c2463f9840139cd9071327a63b66081eaeea3",
+  "snapshot_reference": "data/raw/mds_pobreza_comunal_multidimensional_20261031T080005Z.xlsx",
+  "observed_period": {
+    "start": "2022-01-01",
+    "end": "2022-12-31"
+  }
+}

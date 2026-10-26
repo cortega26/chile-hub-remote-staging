@@ -1,0 +1,41 @@
+{
+  "dataset": "autoridades_electas",
+  "source_name": "Cámara de Diputadas y Diputados + Senado de Chile",
+  "source_url": "https://opendata.camara.cl/camaradiputados/WServices/WSDiputado.asmx/retornarDiputadosPeriodoActual",
+  "source_mode": "live",
+  "source_detail": "WSDiputado.asmx/retornarDiputadosPeriodoActual + camara.cl + senado.cl (Scrapling)",
+  "refreshed_at_utc": "2026-10-31T08:00:07.251617+00:00",
+  "record_count": 205,
+  "fields": [
+    "id_autoridad",
+    "nombre",
+    "cargo",
+    "institucion",
+    "partido",
+    "pacto",
+    "distrito_electoral",
+    "circunscripcion_senatorial",
+    "codigo_comuna",
+    "codigo_region",
+    "periodo_inicio",
+    "periodo_fin",
+    "estado_mandato",
+    "fuente",
+    "url_fuente",
+    "fecha_consulta"
+  ],
+  "notes": [
+    "v1: diputados (155) + senadores (50). Gobernador_regional/alcalde viven en el dataset segregado autoridades_locales (licencia CC-BY-SA).",
+    "distrito_electoral vía Scrapling: 155/155 diputados.",
+    "codigo_region/periodo de senadores: 50/50 poblados desde senado.cl (REGION/PERIODOS).",
+    "RUT (Cámara) y email/teléfono (Senado) descartados (línea roja de datos personales)."
+  ],
+  "reuse_policy": {
+    "status": "open-attribution",
+    "license": "CC-BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution_required": true,
+    "redistribution_ok": true,
+    "summary": "Autoridades electas en ejercicio (cargos públicos) desde datos abiertos oficiales. Solo agregados institucionales; sin datos personales."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "dataset": "resultados_educacionales",
+  "source_name": "Centro de Estudios MINEDUC - Rendimiento 2024",
+  "source_url": "https://datosabiertos.mineduc.cl/wp-content/uploads/2025/04/Rendimiento_2024.rar",
+  "source_mode": "live",
+  "source_detail": "mineduc_rendimiento_2024_rar_agregado_por_comuna",
+  "refreshed_at_utc": "2026-10-26T21:26:13.276930+00:00",
+  "record_count": 345,
+  "fields": [
+    "anio",
+    "codigo_comuna",
+    "matricula_total",
+    "asistencia_promedio",
+    "tasa_aprobacion",
+    "tasa_reprobacion",
+    "tasa_retiro",
+    "establecimientos_reportados"
+  ],
+  "notes": [
+    "privacy_safe_comuna_year_aggregation",
+    "sit_fin_r_Y=retirado T=trasladado asistencia_only_for_P_R_students",
+    "source_file: mineduc_rendimiento_2024.rar, comunas_agregadas: 345"
+  ],
+  "reuse_policy": {
+    "status": "open-attribution",
+    "license": "CC-BY-3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/cl/",
+    "attribution_required": true,
+    "redistribution_ok": true,
+    "summary": "Datos agregados desde Rendimiento 2024 del Centro de Estudios MINEDUC; citar fuente oficial."
+  }
+}
